@@ -28,3 +28,7 @@ steve.learn(more_knowledge)
 nikki = Student.new
 nikki.first_name = "Nikki"
 nikki.last_name = "C"
+
+puts "Steve just learned this important knowledge: '#{steve.knowledge[1]}' from Avi"
+puts "Nikki just learned this important knowledge: '#{nikki.knowledge[0]}' from Avi"
+
